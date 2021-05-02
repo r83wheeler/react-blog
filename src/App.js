@@ -1,20 +1,19 @@
 import React from 'react';
-import './App.css'
-import palm from "../images/palm.jpeg"
-
-
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import { SliderData } from './data/SliderData';
+import 'bootstrap/dist/css/bootstrap.css';
+import GlobalStyle from './globalStyles';
 
 
 
 function App() {
   return (
-   <div className="container">
-    <div 
-      className="palm-background"
-      style={{backgroundImage: `url(${palm})`}}>
-        
-      </div>
-   </div>
+   <>
+      <GlobalStyle />
+      <Navbar />
+      <Hero slides={SliderData}/>
+   </>
   );
 }
 
