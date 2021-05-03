@@ -1,6 +1,6 @@
-import ImageOne from '../images/expenseTracker.jpg';
+import ImageOne from '../images/javascript.jpg';
 import ImageTwo from '../images/expenseTrackerCode.jpg';
-import ImageThree from '../images/horseCapitalMarathon.jpg';
+import ImageThree from '../images/marineCorpsMarathon.jpg';
 import ImageFour from '../images/pHPmyAdmin.jpg';
 import ImageFive from '../images/laravel.jpg';
 
