@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Dropdown from './components/Dropdown';
 import Hero from './components/Hero';
+import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import { SliderData } from './data/SliderData';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -23,6 +24,7 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Hero slides={SliderData}/>
       <InfoSection {...InfoData} />
+      <Projects />
    </>
   );
 }
