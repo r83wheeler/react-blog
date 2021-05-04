@@ -1,4 +1,4 @@
-import ImageOne from '../images/javascript.jpg';
+import ImageOne from '../images/skylineComputer.jpg';
 import ImageTwo from '../images/expenseTrackerCode.jpg';
 import ImageThree from '../images/marineCorpsMarathon.jpg';
 import ImageFour from '../images/pHPmyAdmin.jpg';
