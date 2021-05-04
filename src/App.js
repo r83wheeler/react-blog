@@ -1,30 +1,38 @@
 import React, {useState} from 'react';
 import Dropdown from './components/Dropdown';
-import Hero from './components/Hero';
-import Projects from './components/Projects';
 import Navbar from './components/Navbar';
-import { SliderData } from './data/SliderData';
 import 'bootstrap/dist/css/bootstrap.css';
 import GlobalStyle from './globalStyles';
-import InfoSection from './components/InfoSection';
+import {Switch, Route} from 'react-router-dom';
+import Home from './pages';
+import Footer from './components/Footer';
+import Features from './components/Features';
+import Hero from './components/Hero';
+import Projects from './components/Projects';
 import { InfoData } from './data/InfoData';
-
+import { SliderData } from './data/SliderData';
+import InfoSection from './components/InfoSection';
 
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
   return (
    <>
       <GlobalStyle />
       <Navbar toggle={toggle}/>
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Hero slides={SliderData}/>
-      <InfoSection {...InfoData} />
-      <Projects />
+      <Hero slides={SliderData} />
+            <InfoSection {...InfoData} />
+            <Projects />
+            <Features />
+      <Switch>
+        <Route path="/" exact component={Home} />
+      </Switch>
+      <Footer/>
    </>
   );
 }
