@@ -115,8 +115,8 @@ const Footer = () => {
                        <h3>Let's create!</h3>
                    </Quote>
                    <FooterInfo>
-                       <h4>Contact Me</h4>
-                       <Link to="/contact">Something Here</Link>
+                        {/* <h4>Contact Me</h4>
+                       <Link to="/contact"></Link>*/}
                    </FooterInfo>
                </FooterTop>
                <FooterBottom>
@@ -132,9 +132,9 @@ const Footer = () => {
                        </a>
                    </SocialIcons>
                    <Contact>
-                       <Button to='/projects'>
-                           Let's Chat <IoMdArrowRoundForward />
-                       </Button>
+                      {/* <Button to='/projects'>
+                            Let's Chat <IoMdArrowRoundForward /> 
+                       </Button>*/}
                    </Contact>
                </FooterBottom>
            </Container>

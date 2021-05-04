@@ -7,7 +7,7 @@ import ImageFive from '../images/laravel.jpg';
 
 export const SliderData = [
     {
-        title: 'Expense Tracker App',
+        title: 'UNDER CONSTRUCTION',
         path: '/images',
         label: 'Example',
         image: ImageOne,
