@@ -7,7 +7,7 @@ import ImageFive from '../images/laravel.jpg';
 
 export const SliderData = [
     {
-        title: 'UNDER CONSTRUCTION',
+        title: 'FULL STACK DEVELOPER',
         path: '/images',
         label: 'Example',
         image: ImageOne,
