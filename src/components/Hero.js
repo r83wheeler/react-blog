@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import styled, { css } from 'styled-components/macro';
 import { IoMdArrowRoundForward } from 'react-icons/io';
 import { IoArrowForward, IoArrowBack } from 'react-icons/io5';
+import { Button } from './Button';
 
 const HeroSection = styled.section`
     height: 100vh;
@@ -81,7 +82,9 @@ const HeroContent = styled.div`
         margin-bottom: 0.8rem;
     }
 `;
-//const Arrow = styled(IoMdArrowRoundForward)``;
+const Arrow = styled(IoMdArrowRoundForward)`
+    margin-left: 0.5rem;
+`;
 
 const SliderButtons = styled.div`
     position: absolute; 
@@ -145,9 +148,9 @@ const Hero = ({ slides }) => {
             clearTimeout(timeout.current);
         }
 
-        setCurrent(current === length - 1 ? 0 : current + 1)
+        setCurrent(current === length - 1 ? 0 : current + 1);
 
-        //console.log(current)
+        console.log(current)
     };
 
     const prevSlide = () => {
@@ -155,7 +158,7 @@ const Hero = ({ slides }) => {
             clearTimeout(timeout.current);
         }
 
-        setCurrent(current === 0 ? length - 1 : current - 1)
+        setCurrent(current === 0 ? length - 1 : current - 1);
 
         //console.log(current);
     };
@@ -175,7 +178,13 @@ const Hero = ({ slides }) => {
                                     <HeroImage src={slide.image} alt={slide.alt} />
                                     <HeroContent>
                                         <h1>{slide.title}</h1>
-
+                                        {/* <Button to={slide.path} primary='true'
+                                        css={`
+                                            max-width: 160px;
+                                        `}
+                                        >
+                                            {slide.label}
+                                        </Button> */}
                                     </HeroContent>
                                 </HeroSlider>
 
