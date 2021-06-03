@@ -121,13 +121,13 @@ const Footer = () => {
                </FooterTop>
                <FooterBottom>
                    <SocialIcons>
-                       <a href="//www.LinkedIn.com" rel="noopener noreferrer" target="_blank"> 
+                       <a href="//www.LinkedIn.com/in/russellswheeler/" rel="noopener noreferrer" target="_blank"> 
                        <LinkedinIn />
                        </a>
-                       <a href="//www.github.com" rel="noopener noreferrer" target="_blank"> 
+                       <a href="//www.github.com/r83wheeler" rel="noopener noreferrer" target="_blank"> 
                        <Github />
                        </a>
-                       <a href="//www.twitter.com" rel="noopener noreferrer" target="_blank"> 
+                       <a href="//www.twitter.com/dev_Branch_" rel="noopener noreferrer" target="_blank"> 
                        <Twitter />
                        </a>
                    </SocialIcons>

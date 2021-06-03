@@ -71,14 +71,14 @@ const InfoSection = ({
                     <h1>{heading}</h1>
                     <p>{paragraphOne}</p>
                     <p>{paragraphTwo}</p>
-                    <Button to='/about'>{buttonLabel}</Button>
+                    
                 </ColumnLeft>
                 <ColumnRight reverse={reverse}>
                     <img src={image} alt="about" />
                 </ColumnRight>
             </Container>
         </Section>
-    )
-}
+    );
+};
 
 export default InfoSection

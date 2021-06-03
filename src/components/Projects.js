@@ -90,8 +90,7 @@ const Projects = () => {
                        <Image src={ProjectOne} alt="expense tracker"/>
                        <h2>Expense Tracker App</h2>
                        <InfoLink to="/projects">
-                           <p>View Details</p>
-                           <Arrow />
+                           
                        </InfoLink>
                    </InfoWrap>
                    <InfoWrap>
@@ -107,8 +106,7 @@ const Projects = () => {
                        />
                        <h2>Laravel Basic</h2>
                        <InfoLink to="/projects">
-                           <p>View Details</p>
-                           <Arrow />
+                           
                        </InfoLink>
                    </InfoWrap>
                </InfoRow>
