@@ -21,13 +21,6 @@ export const SliderData = [
         alt: 'trackerCode'
     },
     {
-        title: 'Horse Capital Marathon',
-        path: '/images',
-        label: 'Example',
-        image: ImageThree,
-        alt: 'HorseCapitalPhoto'
-    },
-    {
         title: 'PHP MyAdmin',
         path: '/images',
         label: 'Example',

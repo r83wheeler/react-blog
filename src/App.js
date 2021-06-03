@@ -1,36 +1,51 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useLayoutEffect } from 'react';
 import Dropdown from './components/Dropdown';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import GlobalStyle from './globalStyles';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, useLocation} from 'react-router-dom';
 import Home from './pages';
-import Footer from './components/Footer';
-import Features from './components/Features';
-import Hero from './components/Hero';
-import Projects from './components/Projects';
-import { InfoData } from './data/InfoData';
-import { SliderData } from './data/SliderData';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Articles from './pages/Articles';
 import InfoSection from './components/InfoSection';
 
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  console.log(location.pathname);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
+  useLayoutEffect(
+    () => {
+      window.scrollTo(0, 0);
+    },
+    [location.pathname]
+  );
+
+  // useEffect(() => {
+  //   Aos.init({});
+  // }, []);
+
   return (
    <>
       <GlobalStyle />
       <Navbar toggle={toggle}/>
-      <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Hero slides={SliderData} />
-            <InfoSection {...InfoData} />
-            <Projects />
-            <Features />
+      
+     
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/About" component={InfoSection} />
+        <Route path="/Articles" component={Articles} />
+        <Route path="/Projects" component={Projects} />
+        <Route path="/Contact" component={Contact} />
       </Switch>
       <Footer/>
    </>

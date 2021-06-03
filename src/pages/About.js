@@ -1,8 +1,8 @@
 import React from 'react';
-import Features from '../components/Features'
+import InfoSection from '../components/InfoSection';
 
 const About = () => {
-    return <Features />;
-}
+    return <InfoSection />;
+};
 
 export default About;

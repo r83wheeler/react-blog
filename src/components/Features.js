@@ -1,7 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+
+import styled, {css} from 'styled-components/macro';
 import { Button } from './Button';
 import ImageOne from '../images/updatedGithub.jpg';
+import { FaGithub } from 'react-icons/fa';
 
 const Section = styled.section`
     background: #000d1a;
@@ -71,6 +73,15 @@ const Image = styled.img`
     width: 100%;
     object-fit: cover; 
 `;
+const Icons = css`
+    font-size: clamp(1rem, 6vw, 2rem);
+    margin-right: 1.5rem;
+    color: #cd853f;
+`;
+
+const Github= styled(FaGithub)`
+    ${Icons}
+`;
 
 const Features = () => {
     return (
@@ -81,7 +92,10 @@ const Features = () => {
                       <Content>
                          <h1>GitHub contributions</h1>
                          <p>Since starting the Web Development Bootcamp, I have become proficient with GitHub. </p>
-                         <Button to="/projects">Link to my GitHub</Button>
+                         
+                         <a href="//www.github.com/r83wheeler" rel="noopener noreferrer" target="_blank"> 
+                            <Github /></a>
+                        
                       </Content>
                   </ColumnLeft>
                   <ColumnRight>
