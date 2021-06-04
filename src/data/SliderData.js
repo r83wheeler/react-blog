@@ -1,6 +1,5 @@
 import ImageOne from '../images/skylineComputer.jpg';
 import ImageTwo from '../images/expenseTrackerCode.jpg';
-import ImageThree from '../images/marineCorpsMarathon.jpg';
 import ImageFour from '../images/pHPmyAdmin.jpg';
 import ImageFive from '../images/laravel.jpg';
 

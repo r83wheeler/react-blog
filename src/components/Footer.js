@@ -113,6 +113,7 @@ const Footer = () => {
                <FooterTop>
                    <Quote>
                        <h3>Let's create!</h3>
+                       <h5>r83wheeler@gmail.com</h5>
                    </Quote>
                    <FooterInfo>
                         {/* <h4>Contact Me</h4>
