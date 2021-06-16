@@ -1,7 +1,6 @@
 import ImageOne from '../images/skylineComputer.jpg';
 import ImageTwo from '../images/expenseTrackerCode.jpg';
-import ImageThree from '../images/marineCorpsMarathon.jpg';
-import ImageFour from '../images/pHPmyAdmin.jpg';
+import ImageFour from '../images/toDoList.jpg';
 import ImageFive from '../images/laravel.jpg';
 
 
@@ -21,11 +20,11 @@ export const SliderData = [
         alt: 'trackerCode'
     },
     {
-        title: 'PHP MyAdmin',
+        title: 'To Do List',
         path: '/images',
         label: 'Example',
         image: ImageFour,
-        alt: 'phpMyAdmin'
+        alt: 'toDoList'
     },
     {
         title: 'Laravel 8',
