@@ -3,7 +3,7 @@ import styled, {css} from 'styled-components/macro';
 import {Link} from 'react-router-dom';
 import {Button} from './Button';
 import { IoMdArrowRoundForward } from 'react-icons/io';
-import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter} from 'react-icons/fa';
 
 
 const Section = styled.section`

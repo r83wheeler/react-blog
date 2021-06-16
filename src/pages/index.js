@@ -5,6 +5,7 @@ import { InfoData } from '../data/InfoData';
 import { SliderData } from '../data/SliderData';
 import InfoSection from '../components/InfoSection';
 import Projects from '../components/Projects';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 const Home = () => {
