@@ -1,6 +1,6 @@
 import ImageOne from '../images/skylineComputer.jpg';
 import ImageTwo from '../images/expenseTrackerCode.jpg';
-import ImageFour from '../images/toDoList.jpg';
+import ImageFour from '../images/to_do_list.jpg';
 import ImageFive from '../images/monthly_challenges.jpg';
 
 
