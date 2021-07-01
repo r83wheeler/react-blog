@@ -1,5 +1,5 @@
 import ImageOne from '../images/verticalMarathon.jpg';
-import ImageTwo from '../images/verticalPlant.jpg';
+
 
 export const InfoData = {
     heading: 'A little bit about me',
@@ -17,7 +17,7 @@ export const InfoDataTwo = {
     paragraphOne: 'Lorem33 toin inefi oinsf   inaifn ',
     paragraphTwo: 'Lorem15 soe on oinsfin  ijefins ofnao ainf oaio a aoijao',
     buttonLabel: 'View Projects',
-    image: ImageTwo, 
+    image: ImageOne, 
     reverse: false,
     delay: 100
 };
