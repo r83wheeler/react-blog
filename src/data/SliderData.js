@@ -1,7 +1,7 @@
 import ImageOne from '../images/skylineComputer.jpg';
 import ImageTwo from '../images/expenseTrackerCode.jpg';
 import ImageFour from '../images/toDoList.jpg';
-import ImageFive from '../images/laravel.jpg';
+import ImageFive from '../images/monthly_challenges.jpg';
 
 
 export const SliderData = [
@@ -27,10 +27,10 @@ export const SliderData = [
         alt: 'toDoList'
     },
     {
-        title: 'Laravel 8',
+        title: 'Python - Django',
         path: '/images',
         label: 'Example',
         image: ImageFive,
-        alt: 'Laravel8'
+        alt: 'monthly_challenges'
     },
 ];
