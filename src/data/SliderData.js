@@ -6,7 +6,7 @@ import ImageFive from '../images/monthly_challenges.jpg';
 
 export const SliderData = [
     {
-        title: 'FULL STACK DEVELOPER',
+        title: 'SOFTWARE DEVELOPER',
         path: '/images',
         label: 'Example',
         image: ImageOne,
