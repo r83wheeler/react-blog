@@ -1,1 +1,1 @@
-
+Built a responsive wesite with React.js. Slider section displaying pictures of code written for portfolio projects. Info section, featured projects with links, and a footer section with a call to action, displayed Email, and links to my GitHub, Twitter, and LinkedIn. 
